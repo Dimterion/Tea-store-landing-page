@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    padding: 0px 10px;
+    border-bottom: 1px solid seashell;
+}
+
+header a img {
+    height: 50px;
+}
+
+nav a {
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+
+.mission, .locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.mission div {
+    opacity: 1;
+}
+
+.locations div {
+    opacity: 1;
+}
+
+.locations {
+    background-image: url("images/img-locations-background.webp");
+    height: 500px;
+}
+
+.locations  h2 {
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.tea {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.gallery img {
+    height: 200px;
+    width: 300px;
+}
+
+.container {
+    margin: auto;
+}
+
+.container h3 {
+    margin-top: 10px;
+}
+
+.gallery > div:nth-child(4) {
+    margin-right: 16.7px;
+  }
+
+.gallery > div:nth-child(5) {
+    margin-left: 16.7px;
+  }
+
+.loc-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    width: 300px;
+    margin: 15px 20px 0;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.copyright {
+    text-align: left;
+    margin: 100px 0 30px 20px;
+}
