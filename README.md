@@ -4,7 +4,7 @@ Codecademy project to learn HTML&CSS
 
 ## Link to the page
 
-[Tea store landing page](https://dimterion.github.io/codecademy-the-tea-cozy/)
+[Tea store landing page](https://dimterion.github.io/Tea-store-landing-page/)
 
 ## Built with
 
