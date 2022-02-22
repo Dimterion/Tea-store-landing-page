@@ -1,11 +1,11 @@
-# Tea Cozy website
+# Tea store landing page
 
-Codecademy project
+Codecademy project to learn HTML&CSS
 
-## Link to the website
+## Link to the page
 
-[Tea Cozy](https://dimterion.github.io/codecademy-the-tea-cozy/)
+[Tea store landing page](https://dimterion.github.io/codecademy-the-tea-cozy/)
 
-### Built with
+## Built with
 
 HTML, CSS
